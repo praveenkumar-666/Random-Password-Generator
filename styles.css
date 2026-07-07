@@ -1,0 +1,71 @@
+body{
+    background-color: #070b17;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 20px;
+}
+#g{
+    color :white;
+    font-size: 100px;
+    margin: 100px 0px 0px 0px;
+
+}
+#r{
+    color :rgb(52, 223, 69);
+    font-size: 50px;
+    margin: 0;
+
+}
+p{
+    color :white;
+    font-size: 20px;
+}
+
+button{
+    background-color: rgb(52, 223, 69);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 20px 0px 20px 0px;
+    border: none;
+}
+#password-display{
+    background-color: #1f2937; 
+    color: rgb(52, 223, 69);   
+    font-size: 20px;
+    font-family: monospace;     
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 50px;
+    border-radius: 5px; 
+    padding: 0 10px;    
+}
+#password-display-1 {
+    background-color: #1f2937; 
+    color: rgb(52, 223, 69);   
+    font-size: 20px;
+    font-family: monospace;     
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 50px;
+    border-radius: 5px; 
+    padding: 0 10px;   
+}
+.password-container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
